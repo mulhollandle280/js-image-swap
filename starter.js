@@ -2,7 +2,7 @@
 //April 29th, 2026
 // JS Image Swap Project
 
-const modelImages= ["img/01irl.webp", "img/01irl2.png"];
+const modelImages= ["01irl.webp", "01irl2.png"];
 
 const imgElement = document.getElementById("model-frame");
 
