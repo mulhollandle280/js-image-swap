@@ -1,0 +1,60 @@
+/* Leo Mulholland */
+/* April 29th, 2026 */
+/* JS Image Swap Project */
+
+@font-face{
+			font-family:"VCR";
+			src: url(fonts/VCR_OSD_MONO.ttf);
+			font-weight: normal;
+			font-style: normal;
+		}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-size: 16px;
+}
+
+#model-frame {
+     cursor: pointer;
+     width: 450px;
+     height: 450px;
+     object-fit: cover;
+     border-radius: 12px;
+     transition: transform 0.3s ease;
+}
+
+body{
+  height: 100vh;
+  align-items: center;
+  justify-items: center;
+  background-color: #2b2b2b;
+  margin: 0;
+  font-family: VCR;
+}
+
+#image-container{
+  display: grid;
+  justify-items: center;
+  gap: 16px;
+  background-color: #141414;
+  padding: 30px;
+  border-radius: 17px;
+  box-shadow: #070707;
+}
+
+#model-frame:hover{
+ transform: scale(1.02);
+}
+
+  h2{
+    margin: 0;
+    color: #ff772d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+  }
